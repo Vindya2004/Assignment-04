@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Assignment</title>
+    <link rel="stylesheet" href="/assets/lib/normalize.css">
+    <link rel="stylesheet" href="/assets/lib/fontawesome/css/all.css">
+    <style>
+        nav{
+            height: fit-content;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+        nav>div{
+            display: flex;
+            color: white;
+            width: 200px;
+            height: 50px;
+            padding: 10px;
+            background-color: purple;
+            justify-content: space-between;
+            margin: 10px 10px;
+            align-items: center;
+            margin-left: -130px;
+            transition-duration: 1s;
+            box-shadow: 0px 0px 5px 0px black;
+
+        }
+        nav>div:hover{
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div>
+        <div>Menu One</div>
+        <i class="fa-solid fa-address-book"></i>
+    </div>
+    <div>
+        <div>MenuTwo</div>
+        <i class="fa-solid fa-truck-medical"></i>
+    </div>
+    <div>
+        <div>Menu Three</div>
+        <i class="fa-solid fa-truck-medical"></i>
+    </div>
+    <div>
+        <div>Menu Four</div>
+        <i class="fa-solid fa-truck-medical"></i>
+    </div>
+    <div>
+        <div>Menu Five</div>
+        <i class="fa-solid fa-cart-plus"></i>
+    </div>
+</nav>
+</body>
+</html>
